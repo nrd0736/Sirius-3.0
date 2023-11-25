@@ -32,7 +32,7 @@
 * установить библиотеку easydict ```pip install easydict```
 * установить библиотеку numpy версии 1.20.3 ```pip install numpy==1.20.3```
 * перейдите в директорию ```cd ultralytics\yolo\v8\detect```
-* запуск програмного решения ```python predict.py model=yolov8l.pt source="путь до видео файла.mp4```"
+* запуск програмного решения ```python predict.py model=yolov8l.pt source="путь до видео файла.mp4"```
 
 
 
