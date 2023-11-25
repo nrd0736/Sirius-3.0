@@ -1,0 +1,9 @@
+В Processing-video-recording-of-transport\cars-speed-detections\ultralytics\yolo\v8\detect\main.py ---- менять data (вставлять Json файл)
+
+наш git clone
+
+cd Processing-video-recording-of-transport\cars-speed-detections\
+pip install -e '.[dev]'
+cd ultralytics/yolo/v8/detect
+
+python predict.py model=yolov8l.pt source="название.mp4"
