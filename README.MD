@@ -25,7 +25,12 @@
 * установите python 3.11.5 или аналогичные
 * выгрузите из репозитория програмное решение ```git clone https://github.com/nrd0736/Sirius-3.0.git```
 * перейдите в директорию ```cd Sirius-3.0```
+* установить алгоритм передачи данных между кадрами следующем образом:
+1. скачать [DeepSORT](https://drive.google.com/drive/folders/1kna8eWGrSfzaR6DtNJ8_GchGgPMv3VC8) 
+2. распокавать скаченную диреткорию в Sirius-3.0\ultralytics\yolo\v8\detect
 * при помощи команды ```pip install -e '.[dev]'``` устанавливаем необходимые зависимости
+* установить библиотеку easydict ```pip install easydict```
+* установить библиотеку numpy версии 1.20.3 ```pip install numpy==1.20.3```
 * перейдите в директорию ```cd ultralytics\yolo\v8\detect```
 * запуск програмного решения ```python predict.py model=yolov8l.pt source="путь до видео файла.mp4```"
 
