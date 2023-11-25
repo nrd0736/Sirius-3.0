@@ -24,10 +24,10 @@
 Порядок развёртывания програмного решения:
 * установите python 3.11.5 или аналогичные
 * выгрузите из репозитория програмное решение ```git clone https://github.com/nrd0736/Sirius-3.0.git```
-* перейдите в директорию ```cd C:\Users\pc\Desktop\Sirius-3.0-main```
+* перейдите в директорию ```cd Sirius-3.0```
 * при помощи команды ```pip install -e '.[dev]'``` устанавливаем необходимые зависимости
 * перейдите в директорию ```cd ultralytics\yolo\v8\detect```
-* запуск програмного решения ```python predict.py model=yolov8l.pt source="название.mp4```"
+* запуск програмного решения ```python predict.py model=yolov8l.pt source="путь до видео файла.mp4```"
 
 
 
